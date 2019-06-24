@@ -93,6 +93,7 @@ void printMain(SysInfo sys,ProcessContainer procs){
     }
 	endwin();
 }
+
 int main( int   argc, char *argv[] )
 {
  //Object which contains list of current processes, Container for Process Class
