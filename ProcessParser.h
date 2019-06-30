@@ -45,7 +45,7 @@ private:
 };
 
 
-string ProcessParser::getVmsSize(string pid){
+string ProcessParser::getVmSize(string pid){
     string line;
     //Declaring search attribute for file
     string name = "VmData";
