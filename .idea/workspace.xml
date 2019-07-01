@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90380695-ca9e-4c6a-8f64-8058c0e9cddc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Process.h" beforeDir="false" afterPath="$PROJECT_DIR$/Process.h" afterDir="false" />
-    </list>
+    <list default="true" id="90380695-ca9e-4c6a-8f64-8058c0e9cddc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Process.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="178">
+              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -178,12 +176,12 @@
       <updated>1560948240265</updated>
       <workItem from="1560948241951" duration="5577000" />
       <workItem from="1561189401348" duration="22296000" />
-      <workItem from="1561757043380" duration="13029000" />
+      <workItem from="1561757043380" duration="13500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40902000" />
+    <option name="totallyTimeSpent" value="41373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -257,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Process.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="178">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
         </state>
       </provider>
     </entry>
