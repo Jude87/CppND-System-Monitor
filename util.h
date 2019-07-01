@@ -1,5 +1,6 @@
 #include <string>
 #include <fstream>
+#include
 
 // Classic helper function
 class Util {
@@ -47,8 +48,8 @@ std::string Util::getProgressBar(std::string percent){
 }
 
 // wrapper for creating streams
-std::ifstream Util::getStream(std::string path){
-    std::ifstream stream(path);
+std::ifstream Util::getStream(std::string path, std::ifstream stream){
+    stream(path);
     if (!stream){
         throw std::runtime_error("Non - existing PID");
     }
