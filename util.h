@@ -48,10 +48,19 @@ std::string Util::getProgressBar(std::string percent){
 }
 
 // wrapper for creating streams
-std::ifstream Util::getStream(std::string path, std::ifstream stream){
-    stream(path);
-    if (!stream){
+//std::ifstream Util::getStream(std::string path, std::ifstream stream){
+//    stream(path);
+//    if (!stream){
+//        throw std::runtime_error("Non - existing PID");
+//    }
+//    return stream;
+//}
+
+void Util::getStream(std::string path, std::ifstream& stream){
+    stream.open (path, std::ifstream::in);
+    if (!stream && !stream.is_open()){
+        stream.close();
         throw std::runtime_error("Non - existing PID");
     }
-    return stream;
+    //return stream;
 }
